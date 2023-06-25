@@ -6,9 +6,11 @@ void monty_stack(stack_t **stack, unsigned int line_number);
 void monty_queue(stack_t **stack, unsigned int line_number);
 
 /**
- * monty_rotl - Rotates the top value of a stack_t linked list to the bottom.
- * @stack: A pointer to the top mode node of a stack_t linked list.
- * @line_number: The current working line number of a Monty bytecodes file.
+ * monty_rotl - Rotates the top value of a stack_t linked list to the bottom
+ *
+ * @stack: Pointer to the top mode node of a stack_t linked list
+ *
+ * @line_number: Current working line number of a Monty bytecodes file
  */
 void monty_rotl(stack_t **stack, unsigned int line_number)
 {
@@ -32,9 +34,11 @@ void monty_rotl(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * monty_rotr - Rotates the bottom value of a stack_t linked list to the top.
- * @stack: A pointer to the top mode node of a stack_t linked list.
- * @line_number: The current working line number of a Monty bytecodes file.
+ * monty_rotr - Rotates the bottom value of a stack_t linked list to the top
+ *
+ * @stack: Pointer to the top mode node of a stack_t linked list
+ *
+ * @line_number: Current working line number of a Monty bytecodes file
  */
 void monty_rotr(stack_t **stack, unsigned int line_number)
 {
@@ -58,9 +62,11 @@ void monty_rotr(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * monty_stack - Converts a queue to a stack.
- * @stack: A pointer to the top mode node of a stack_t linked list.
- * @line_number: The current working line number of a Monty bytecodes file.
+ * monty_stack - Converts a queue to a stack
+ *
+ * @stack: Pointer to the top mode node of a stack_t linked list
+ *
+ * @line_number: Current working line number of a Monty bytecodes file
  */
 void monty_stack(stack_t **stack, unsigned int line_number)
 {
@@ -69,9 +75,11 @@ void monty_stack(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * monty_queue - Converts a stack to a queue.
- * @stack: A pointer to the top mode node of a stack_t linked list.
- * @line_number: The current working line number of a Monty bytecodes file.
+ * monty_queue - Converts a stack to a queue
+ *
+ * @stack: A pointer to the top mode node of a stack_t linked list
+ *
+ * @line_number: The current working line number of a Monty bytecodes file
  */
 void monty_queue(stack_t **stack, unsigned int line_number)
 {
